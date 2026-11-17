@@ -1,0 +1,417 @@
+{
+  "model": "yolo26n.pt",
+  "split": "val",
+  "num_images": 75,
+  "metric": "recall, same class, IoU>=0.5, default conf (0.25), imgsz=640",
+  "groups": {
+    "people": {
+      "recall": 0.5878,
+      "found": 174,
+      "labeled": 296
+    },
+    "animals": {
+      "recall": 0.6667,
+      "found": 76,
+      "labeled": 114
+    }
+  },
+  "per_class": {
+    "person": {
+      "recall": 0.5878,
+      "found": 174,
+      "labeled": 296
+    },
+    "horse": {
+      "recall": 0.7381,
+      "found": 31,
+      "labeled": 42
+    },
+    "cow": {
+      "recall": 0.5833,
+      "found": 21,
+      "labeled": 36
+    },
+    "sheep": {
+      "recall": 0.6667,
+      "found": 24,
+      "labeled": 36
+    }
+  },
+  "per_image": [
+    {
+      "file": "000000017627.jpg",
+      "labeled": 4,
+      "found": 2
+    },
+    {
+      "file": "000000500663.jpg",
+      "labeled": 3,
+      "found": 2
+    },
+    {
+      "file": "000000360661.jpg",
+      "labeled": 7,
+      "found": 7
+    },
+    {
+      "file": "000000101068.jpg",
+      "labeled": 1,
+      "found": 1
+    },
+    {
+      "file": "000000061171.jpg",
+      "labeled": 7,
+      "found": 5
+    },
+    {
+      "file": "000000578489.jpg",
+      "labeled": 7,
+      "found": 6
+    },
+    {
+      "file": "000000240754.jpg",
+      "labeled": 3,
+      "found": 2
+    },
+    {
+      "file": "000000345466.jpg",
+      "labeled": 6,
+      "found": 6
+    },
+    {
+      "file": "000000005060.jpg",
+      "labeled": 1,
+      "found": 1
+    },
+    {
+      "file": "000000511599.jpg",
+      "labeled": 11,
+      "found": 6
+    },
+    {
+      "file": "000000138979.jpg",
+      "labeled": 5,
+      "found": 3
+    },
+    {
+      "file": "000000547886.jpg",
+      "labeled": 7,
+      "found": 7
+    },
+    {
+      "file": "000000287874.jpg",
+      "labeled": 9,
+      "found": 4
+    },
+    {
+      "file": "000000097924.jpg",
+      "labeled": 4,
+      "found": 3
+    },
+    {
+      "file": "000000234807.jpg",
+      "labeled": 3,
+      "found": 2
+    },
+    {
+      "file": "000000549390.jpg",
+      "labeled": 12,
+      "found": 4
+    },
+    {
+      "file": "000000375763.jpg",
+      "labeled": 12,
+      "found": 8
+    },
+    {
+      "file": "000000308631.jpg",
+      "labeled": 10,
+      "found": 9
+    },
+    {
+      "file": "000000266981.jpg",
+      "labeled": 13,
+      "found": 5
+    },
+    {
+      "file": "000000037689.jpg",
+      "labeled": 13,
+      "found": 5
+    },
+    {
+      "file": "000000069224.jpg",
+      "labeled": 2,
+      "found": 2
+    },
+    {
+      "file": "000000435206.jpg",
+      "labeled": 13,
+      "found": 3
+    },
+    {
+      "file": "000000500716.jpg",
+      "labeled": 1,
+      "found": 1
+    },
+    {
+      "file": "000000222863.jpg",
+      "labeled": 1,
+      "found": 1
+    },
+    {
+      "file": "000000408120.jpg",
+      "labeled": 1,
+      "found": 1
+    },
+    {
+      "file": "000000009448.jpg",
+      "labeled": 1,
+      "found": 1
+    },
+    {
+      "file": "000000348488.jpg",
+      "labeled": 4,
+      "found": 0
+    },
+    {
+      "file": "000000033104.jpg",
+      "labeled": 6,
+      "found": 4
+    },
+    {
+      "file": "000000240023.jpg",
+      "labeled": 6,
+      "found": 4
+    },
+    {
+      "file": "000000500477.jpg",
+      "labeled": 2,
+      "found": 2
+    },
+    {
+      "file": "000000356261.jpg",
+      "labeled": 2,
+      "found": 1
+    },
+    {
+      "file": "000000361142.jpg",
+      "labeled": 3,
+      "found": 0
+    },
+    {
+      "file": "000000380203.jpg",
+      "labeled": 1,
+      "found": 1
+    },
+    {
+      "file": "000000492282.jpg",
+      "labeled": 9,
+      "found": 6
+    },
+    {
+      "file": "000000546823.jpg",
+      "labeled": 14,
+      "found": 7
+    },
+    {
+      "file": "000000041635.jpg",
+      "labeled": 4,
+      "found": 4
+    },
+    {
+      "file": "000000396205.jpg",
+      "labeled": 2,
+      "found": 2
+    },
+    {
+      "file": "000000191614.jpg",
+      "labeled": 3,
+      "found": 3
+    },
+    {
+      "file": "000000408774.jpg",
+      "labeled": 4,
+      "found": 4
+    },
+    {
+      "file": "000000329447.jpg",
+      "labeled": 4,
+      "found": 4
+    },
+    {
+      "file": "000000160864.jpg",
+      "labeled": 6,
+      "found": 6
+    },
+    {
+      "file": "000000212453.jpg",
+      "labeled": 8,
+      "found": 0
+    },
+    {
+      "file": "000000428562.jpg",
+      "labeled": 14,
+      "found": 6
+    },
+    {
+      "file": "000000114907.jpg",
+      "labeled": 14,
+      "found": 7
+    },
+    {
+      "file": "000000214753.jpg",
+      "labeled": 4,
+      "found": 4
+    },
+    {
+      "file": "000000398905.jpg",
+      "labeled": 1,
+      "found": 1
+    },
+    {
+      "file": "000000190753.jpg",
+      "labeled": 7,
+      "found": 6
+    },
+    {
+      "file": "000000263966.jpg",
+      "labeled": 3,
+      "found": 1
+    },
+    {
+      "file": "000000353051.jpg",
+      "labeled": 2,
+      "found": 2
+    },
+    {
+      "file": "000000199236.jpg",
+      "labeled": 14,
+      "found": 6
+    },
+    {
+      "file": "000000377635.jpg",
+      "labeled": 4,
+      "found": 2
+    },
+    {
+      "file": "000000243989.jpg",
+      "labeled": 7,
+      "found": 6
+    },
+    {
+      "file": "000000225184.jpg",
+      "labeled": 3,
+      "found": 3
+    },
+    {
+      "file": "000000548524.jpg",
+      "labeled": 3,
+      "found": 1
+    },
+    {
+      "file": "000000251140.jpg",
+      "labeled": 2,
+      "found": 1
+    },
+    {
+      "file": "000000303305.jpg",
+      "labeled": 3,
+      "found": 0
+    },
+    {
+      "file": "000000094871.jpg",
+      "labeled": 8,
+      "found": 7
+    },
+    {
+      "file": "000000134856.jpg",
+      "labeled": 6,
+      "found": 3
+    },
+    {
+      "file": "000000040036.jpg",
+      "labeled": 2,
+      "found": 2
+    },
+    {
+      "file": "000000233567.jpg",
+      "labeled": 7,
+      "found": 3
+    },
+    {
+      "file": "000000535094.jpg",
+      "labeled": 3,
+      "found": 1
+    },
+    {
+      "file": "000000506178.jpg",
+      "labeled": 2,
+      "found": 1
+    },
+    {
+      "file": "000000320490.jpg",
+      "labeled": 1,
+      "found": 1
+    },
+    {
+      "file": "000000579070.jpg",
+      "labeled": 6,
+      "found": 5
+    },
+    {
+      "file": "000000425226.jpg",
+      "labeled": 1,
+      "found": 1
+    },
+    {
+      "file": "000000231580.jpg",
+      "labeled": 8,
+      "found": 7
+    },
+    {
+      "file": "000000447611.jpg",
+      "labeled": 2,
+      "found": 2
+    },
+    {
+      "file": "000000349594.jpg",
+      "labeled": 1,
+      "found": 1
+    },
+    {
+      "file": "000000036660.jpg",
+      "labeled": 1,
+      "found": 0
+    },
+    {
+      "file": "000000303566.jpg",
+      "labeled": 13,
+      "found": 12
+    },
+    {
+      "file": "000000306893.jpg",
+      "labeled": 9,
+      "found": 1
+    },
+    {
+      "file": "000000080659.jpg",
+      "labeled": 7,
+      "found": 5
+    },
+    {
+      "file": "000000343453.jpg",
+      "labeled": 1,
+      "found": 1
+    },
+    {
+      "file": "000000007281.jpg",
+      "labeled": 12,
+      "found": 5
+    },
+    {
+      "file": "000000226154.jpg",
+      "labeled": 4,
+      "found": 1
+    }
+  ]
+}
